@@ -20,3 +20,11 @@ footer a {
   padding: 16px;
   color: #fff;
 }
+
+i {
+  padding: 6px;
+}
+
+div.container {
+  margin-top: 100px;
+}

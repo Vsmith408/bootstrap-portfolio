@@ -7,6 +7,9 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css/style.css">
+    <link rel="stylesheet" href="./styles.css/form.css">
+
 </head>
 
 <body>
@@ -33,24 +36,55 @@
     <h2>
         Contact Me
     </h2>
-    <form name="contact" netlify>
-        <p>
-            <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-            <label>Email <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Message <input type="text" name="message" /></label>
-        </p>
-        <p>
-            <button type="submit">Submit</button>
-        </p>
-    </form>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <form>
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="inputFirstName">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputLastName">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" aria-label="With textarea">Type your message here</textarea>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <a id="github-link" class="social-link" href="https://github.com/Vsmith408" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a id="email-link" class="social-link" href="mailto:victoriasmithh428@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    Email
+                </a>
+                <a id="linkedin-link" class="social-link" href="https://www.linkedin.com/in/victoriasmith08/"
+                    target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+                <a id="twitter-link" class="social-link" href="https://twitter.com/Victoriaa08" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    Twitter
+                </a>
+            </div>
+        </footer>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/3f74f44adb.js"></script>
+
 </body>
 
 </html>
